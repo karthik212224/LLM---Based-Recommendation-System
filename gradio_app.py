@@ -40,7 +40,7 @@ def process_inputs(audio_filepath, image_filepath):
         doctor_response = analyze_image_with_query(
             query=system_prompt + " " + speech_to_text_output, 
             encoded_image=encode_image(image_filepath),
-            model="meta-llama/llama-4-maverick-17b-128e-instruct"
+            model="meta-llama/llama-4-scout-17b-16e-instruct"
         )
     else:
         doctor_response = "No image provided for analysis."
@@ -73,3 +73,4 @@ iface = gr.Interface(
 
 
 iface.launch(debug=True)
+
