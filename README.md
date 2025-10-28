@@ -1,1 +1,1 @@
-# LLM---Based-Recommendation-System
+This project leverages Large Language Models (LLMs) to build an intelligent recommendation system capable of analyzing patient health data and medical images to provide personalized disease insights and medication suggestions. The system integrates AI-driven image analysis, speech-to-text, and text-to-speech capabilities to enable natural, multimodal interaction between patients and the system.
